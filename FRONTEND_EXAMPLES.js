@@ -4,7 +4,7 @@
  * ================================================================
  */
 
-const API_BASE = "http://localhost:5000"; // ← Change to your deployed backend URL
+const API_BASE = "https://tech-website-backend-production.up.railway.app/"; // ← Change to your deployed backend URL
 
 // ─────────────────────────────────────────────────────────────
 // DROPDOWN OPTIONS  (exact match to your UI screenshots)

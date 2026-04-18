@@ -14,7 +14,7 @@ connectDB();
 // CORS — Allow your frontend origin
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "*", // Replace * with your actual frontend URL in production
+    origin: process.env.FRONTEND_URL || "https://tech.himanshuvashist.com/", // Replace * with your actual frontend URL in production
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
